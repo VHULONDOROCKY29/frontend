@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo1 from 'C:/Users/Asus/isumi-consulting/src/Images/logo1.png';
-import logo2 from 'C:/Users/Asus/isumi-consulting/src/Images/logo2.png';
+import logo1 from '../Images/logo1.png'; // <-- Use relative path
+import logo2 from '../Images/logo2.png'; // <-- Use relative path
 
 function Header() {
   const [currentLogo, setCurrentLogo] = useState(logo1);
